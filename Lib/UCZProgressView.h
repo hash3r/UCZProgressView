@@ -31,5 +31,5 @@ IB_DESIGNABLE
 @property (nonatomic, copy) void(^animationDidStopBlock)();
 
 - (void)setProgress:(CGFloat)progress animated:(BOOL)animated;
-
+- (void)performFinishAnimation;
 @end
